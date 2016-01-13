@@ -15,6 +15,6 @@ public interface GameEngine {
 	 * @param warrior2
 	 * @return Winning warrior.
 	 */
-	public FightResult fight(Warrior warrior1, Warrior warrior2);
+	FightResult fight(Warrior warrior1, Warrior warrior2);
 	
 }
